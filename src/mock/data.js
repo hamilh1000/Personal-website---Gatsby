@@ -2,26 +2,30 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Hugh Hamilton-Green', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
+  description: 'Welcome to my website - all things tech, start-ups and sustainability', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  title: 'Hello, my name is',
+  name: 'Hugh Hamilton-Green',
+  subtitle:
+    'I am an MSc Computer Science (conversion) student and Economics and Management graduate.',
+  cta: 'Find out more below',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  img: 'IMG_6413.jpg',
+  paragraphOne:
+    'I am a MSc Computer Science (conversion) student and Economics and Management graduate. Passion for data and technology and how they can transform industries. Actively pursuing interests in FinTech, Data Science, Venture Capital, and Digital Strategy.',
+  paragraphTwo:
+    'Aspiring entrepreneur pursuing ideas in the food and beverage industry, with a focus on sustainability and healthy living.',
+  paragraphThree:
+    'Alongside my studies, I am a keen sportsman and budding chef. The dream is to one day own a restaurant on the Cornish coast.',
+  resume: 'HUGH HAMILTON-GREEN CV.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -57,9 +61,9 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
+  cta: 'Feel free to get in contact...',
   btn: '',
-  email: '',
+  email: 'hughgreen1664@hotmail.co.uk',
 };
 
 // FOOTER DATA
@@ -78,7 +82,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/hugh-hamilton-green/',
     },
     {
       id: nanoid(),
@@ -90,5 +94,5 @@ export const footerData = {
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
